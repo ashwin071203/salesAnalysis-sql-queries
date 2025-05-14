@@ -1,9 +1,5 @@
--- SQL Retail Sales Analysis - P1
-CREATE DATABASE sql_project_p2;
-
-
 -- Create TABLE
-DROP TABLE IF EXISTS sales;
+
 CREATE TABLE sales
             (
                 transaction_id INT PRIMARY KEY,	
@@ -89,12 +85,9 @@ SELECT COUNT(DISTINCT customer_id) as total_sale FROM sales
 
 SELECT DISTINCT category FROM sales
 
+INDUSTRY PROBLEMS :
 
-
-
-
-
- -- Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05
+ Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05
 
 SELECT *
 FROM sales
